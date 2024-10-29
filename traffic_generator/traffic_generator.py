@@ -44,7 +44,6 @@ def generate_orders():
         response_data = response.json()
         order_id = response_data.get("id")
         print(f"ID del pedido es: {order_id}")
-        time.sleep(2)
 
 if __name__ == '__main__':
     generate_orders()
